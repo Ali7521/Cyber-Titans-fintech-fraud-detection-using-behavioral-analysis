@@ -1,0 +1,74 @@
+{
+  "best_model": "Random Forest",
+  "feature_names": [
+    "step",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "balance_change_ratio",
+    "amount_to_balance_ratio",
+    "balance_error_orig",
+    "balance_error_dest",
+    "is_merchant",
+    "is_high_risk_type",
+    "sender_txn_count",
+    "sender_avg_amount",
+    "sender_std_amount",
+    "sender_max_amount",
+    "amount_zscore",
+    "hour_of_day",
+    "is_night",
+    "day_number",
+    "is_large_amount",
+    "emptied_account",
+    "type_CASH_IN",
+    "type_CASH_OUT",
+    "type_DEBIT",
+    "type_PAYMENT",
+    "type_TRANSFER"
+  ],
+  "comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9777,
+      "Precision": 0.2727,
+      "Recall": 1.0,
+      "F1-Score": 0.4286,
+      "ROC-AUC": 0.9944,
+      "CV F1 Mean": 0.9804,
+      "CV F1 Std": 0.0069
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "ROC-AUC": 1.0,
+      "CV F1 Mean": 1.0,
+      "CV F1 Std": 0.0
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "ROC-AUC": 1.0,
+      "CV F1 Mean": 0.9975,
+      "CV F1 Std": 0.0049
+    },
+    {
+      "Model": "Isolation Forest",
+      "Accuracy": 0.7632,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1-Score": 0.0,
+      "ROC-AUC": "N/A",
+      "CV F1 Mean": "N/A",
+      "CV F1 Std": "N/A"
+    }
+  ]
+}
