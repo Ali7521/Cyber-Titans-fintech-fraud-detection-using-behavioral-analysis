@@ -1,16 +1,26 @@
+```markdown
 # 🛡️ FinTech Fraud Detection Using Behavioral Analysis
 
-## 👥 Team Name
-
+## 🏷️ Team Name
 **Cyber Titans**
+
+## 🛤️ Track
+**Track 2**
 
 ---
 
-## 👨‍💼 Team Leader
+## 👥 Team Members & Roles
 
-* **Ali Hamza**
+### 👨‍💼 Team Leader
+**Ali Hamza**  
+- Project Management  
+ 
 
-## 👨‍💻 Team Members
+### 👨‍💻 Team Member
+**Rahul Patel**  
+ 
 
-* **Rahul Patel**
-* **Akash Yadav**
+### 👨‍💻 Team Member
+**Akash Yadav**  
+
+```
